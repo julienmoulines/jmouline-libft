@@ -6,7 +6,7 @@
 /*   By: jmouline <jul.moulines@free.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 23:08:32 by jmouline          #+#    #+#             */
-/*   Updated: 2022/11/15 18:06:14 by jmouline         ###   ########.fr       */
+/*   Updated: 2022/11/15 19:48:15 by jmouline         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ static char	**ft_freetab(char **tab)
 	return (NULL);
 }
 
-char	**ft_split_norme(char **tab, char const *s, char c)
+static char	**ft_split_norme(char **tab, char const *s, char c)
 {
 	size_t		i;
 	size_t		j;

@@ -6,13 +6,13 @@
 /*   By: jmouline <jul.moulines@free.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 20:11:46 by jmouline          #+#    #+#             */
-/*   Updated: 2022/11/15 18:11:26 by jmouline         ###   ########.fr       */
+/*   Updated: 2022/11/15 19:47:51 by jmouline         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin_normed(const char *s1, const char *s2, char *dest)
+static char	*ft_strjoin_normed(const char *s1, const char *s2, char *dest)
 {
 	size_t	len_s1;
 	size_t	len_s2;
